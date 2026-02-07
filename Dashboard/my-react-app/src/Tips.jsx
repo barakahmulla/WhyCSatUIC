@@ -4,7 +4,7 @@ const Tips = () => (
   <section>
     <h1>Tips We Wish We Had as Freshmen</h1>
     
-    {/* Cute Red Accent Line */}
+    {}
     <div style={{ 
       width: '80px', 
       height: '6px', 
