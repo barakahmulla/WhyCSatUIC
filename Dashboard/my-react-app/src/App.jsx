@@ -38,7 +38,7 @@ function App() {
         {['Home', 'Tips', 'Classes','Game', 'About', 'Course Map'].map((tab) => (
           <button 
             key={tab}
-            className={`tab-button ${activeTab === tab ? 'active' : ''}`}
+            className={`tab-button ${activeTab === tab ? 'active' : ''} ${tab === 'Game' ? 'jump-animation' : ''}`}
             onClick={() => setActiveTab(tab)}
           >
             {tab === 'Home' ? 'Why UIC CS?' : 
