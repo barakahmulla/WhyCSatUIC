@@ -60,7 +60,7 @@ const Game = () => (
       <h3 style={{ color: '#001E62' }}>Download Unity Game:</h3>
       <div style={{ display: 'flex', gap: '15px', justifyContent: 'center', flexWrap: 'wrap' }}>
         <a
-          href="/unity/MyGame-mac.zip"   // file in public/unity/
+          href="/unity/MacExecutable.app.zip"   // file in public/unity/
           className="game-button"
           download
         >
