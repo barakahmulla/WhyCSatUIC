@@ -5,6 +5,7 @@ import ReactFlow, {
   Controls,
   MiniMap,
   Handle,
+  MarkerType,
   Position
 } from 'reactflow';
 import 'reactflow/dist/style.css';
@@ -22,6 +23,7 @@ const courseNodeStyle = {
   borderRadius: 999,
   padding: '10px 18px',
   border: '1px solid #d0d7de',
+  borderColor: '#d0d7de',
   backgroundColor: '#ffffff',
   boxShadow: '0 4px 10px rgba(15,23,42,0.12)',
   width: 190,              // fixed width
@@ -40,15 +42,27 @@ function CourseNode({ data }) {
     <div style={{ position: 'relative' }}>
       <Handle
         type="target"
-        position={Position.Left}
+        position={Position.Top}
         id="left"
-        style={{ background: '#64748b' }}
+        isConnectable={false}
+        style={{
+          width: 0,
+          height: 0,
+          background: 'transparent',
+          border: 'none'
+        }}
       />
       <Handle
         type="source"
-        position={Position.Right}
+        position={Position.Bottom}
         id="right"
-        style={{ background: '#64748b' }}
+        isConnectable={false}
+        style={{
+          width: 0,
+          height: 0,
+          background: 'transparent',
+          border: 'none'
+        }}
       />
 
       <div
@@ -58,7 +72,7 @@ function CourseNode({ data }) {
           boxShadow: isHovered
             ? '0 10px 24px rgba(15,23,42,0.22)'
             : courseNodeStyle.boxShadow,
-          borderColor: isHovered ? '#fb7185' : courseNodeStyle.border
+          borderColor: isHovered ? '#fb7185' : courseNodeStyle.borderColor
         }}
       >
         <div style={{ fontWeight: 600, fontSize: 13, color: '#0f172a' }}>
@@ -158,7 +172,7 @@ function buildGraph(courseList, hoveredCode) {
     const cols = 3;
     const techRows = Math.ceil(technicalCourses.length / cols);
     const boxWidth = cols * colSpacing + 120;
-    const boxHeight = techRows * 140 + 80;
+    const boxHeight = techRows * 140 + 100;
 
     technicalCourses.forEach((c, index) => {
       const isSelfActive = activeCode === c.code;
@@ -193,7 +207,7 @@ function buildGraph(courseList, hoveredCode) {
         id: 'TECH_BOX_BG',
         position: {
         x: baseX - 60,
-        y: baseY - 60
+        y: baseY - 90
         },
         data: { label: '' },
         type: 'default',
@@ -215,9 +229,9 @@ function buildGraph(courseList, hoveredCode) {
         id: 'TECH_BOX_LABEL',
         position: {
         x: baseX - 60 + boxWidth / 2 - 90,
-        y: baseY - 50
+        y: baseY - 90
         },
-        data: { label: 'Technical – choose 6' },
+        data: { label: 'Technical - choose 6' },
         type: 'default',
         draggable: false,
         selectable: false,
@@ -251,6 +265,12 @@ function buildGraph(courseList, hoveredCode) {
         targetHandle: 'left',
         type: 'smoothstep',
         animated: isToActive,
+        markerEnd: {
+            type: MarkerType.ArrowClosed,
+            width: 16,
+            height: 16,
+            color: isToActive ? '#fb7185' : '#64748b'
+        },
         style: {
           strokeWidth: isToActive ? 4 : 2,
           stroke: isToActive ? '#fb7185' : '#64748b'
@@ -334,6 +354,9 @@ export default function CourseMindMap() {
           onNodeMouseLeave={handleNodeMouseLeave}
           onPaneClick={handlePaneClick}
           fitView
+          nodesDraggable={true}      // allow dragging
+          nodesConnectable={false}   // cannot create new connections
+          connectOnClick={false}     // clicking handles won't start connections
         >
           {/* <MiniMap /> */}
           <Controls />
