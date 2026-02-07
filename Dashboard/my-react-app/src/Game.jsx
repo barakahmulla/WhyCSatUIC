@@ -4,10 +4,19 @@ import YoutubeEmbed from "./assets/youtube.jsx";
 const Game = () => (
   <section style={{ textAlign: 'center' }}>
     <h1>Play Our Find Your Flame Game</h1>
+
+    <div style={{ 
+  width: '80px', 
+  height: '6px', 
+  backgroundColor: '#D50032', 
+  borderRadius: '10px',
+  margin: '0.5rem auto 2.5rem' /* This is the key: 'auto' centers it horizontally */
+  }}></div>
+
     <h2>The UIC CS Experience: Interactive Game</h2>
     
     <p style={{ fontSize: '1.1rem', lineHeight: '1.6', maxWidth: '700px', margin: '0 auto 2rem' }}>
-      We built an interactive game to recreate the real experience of being a CS student at UIC — from classes and stress to fun moments and wins along the way.
+      We built an interactive game to recreate the real experience of being a CS student at UIC, from classes and stress to fun moments and wins along the way.
     </p>
     
     <p style={{ fontSize: '1.1rem', lineHeight: '1.6', maxWidth: '700px', margin: '0 auto 2rem' }}>
