@@ -39,7 +39,7 @@ const Classes = () => {
       
       {}
       <div style={{ 
-        backgroundColor: '#e38a8a', 
+        backgroundColor: '#FAA0A0', 
         color: 'white', 
         padding: '10px 16px', 
         borderRadius: '8px',
@@ -51,14 +51,23 @@ const Classes = () => {
         <strong> Data courtesy of the UIC CS Trackers Discord community </strong>
       </div>
 
+    {}
+    <div style={{ 
+      width: '80px', 
+      height: '6px', 
+      backgroundColor: '#D50032', 
+      borderRadius: '10px',
+      marginTop: '0.5rem',
+      marginBottom: '2.5rem'
+    }}></div>
+
       <p style={{ fontSize: '1.1rem', lineHeight: '1.6', marginBottom: '2rem' }}>
         Real student reviews, difficulty ratings, and survival tips. 
-        Courses with a <span style={{borderBottom: '2px solid #D50032'}}>Red Tip</span> have detailed advice.
         For official grade distributions, check out{' '}
         <a href="https://uicgrades.com/gradeDistributions.html" target="_blank" rel="noopener noreferrer">
-          UIC Grades
+            UIC Grades
         </a>.
-      </p>
+        </p>
 
       <div className="search-box">
         <label htmlFor="course-search" style={{ fontWeight: '600', color: '#001E62' }}>

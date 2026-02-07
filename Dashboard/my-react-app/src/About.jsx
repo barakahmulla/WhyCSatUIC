@@ -9,6 +9,16 @@ import NourImg from  './images/nour.png';
 const About = () => (
   <section>
     <h1>About Us</h1>
+    {}
+    <div style={{ 
+      width: '80px', 
+      height: '6px', 
+      backgroundColor: '#D50032', 
+      borderRadius: '10px',
+      marginTop: '0.5rem',
+      marginBottom: '2.5rem'
+    }}></div>
+    
     <h2>Meet the Team</h2>
     
     <p style={{ fontSize: '1.1rem', lineHeight: '1.6', marginBottom: '2rem' }}>
