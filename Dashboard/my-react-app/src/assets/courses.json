@@ -1,0 +1,652 @@
+[
+  {
+    "code": "CS 100",
+    "name": "Discovering Computer Science",
+    "Title": "Fundamentals of computing.",
+    "description": "Fundamentals of computing; history of computation; computer organization; program design, testing and debugging; web design; computer animation; software tools; societal and legal issues in computing.",
+    "prereqs": []
+  },
+  {
+    "code": "CS 107",
+    "name": "Introduction to Computing and Programming",
+    "Title": "Access and use of computing resources.",
+    "description": "Access and use of computing resources. Programming and program design. Problem solving. Data types, control structures, modularity, and information hiding.",
+    "prereqs": ["MATH 180"]
+  },
+  {
+    "code": "CS 109",
+    "name": "Programming for Engineers with MatLab",
+    "Title": "Program design and problem solving using MATLAB.",
+    "description": "Program design and problem solving using MATLAB. Numeric computation, data types and operators, control structures, functions, file I/O, arrays and structures. Engineering applications: Matrices, equation solution. Programming assignments.",
+    "prereqs": ["MATH 180"]
+  },
+  {
+    "code": "CS 111",
+    "name": "Program Design I",
+    "Title": "Introduction to programming and problem solving.",
+    "description": "Introduction to programming: control structures; variables and data types; problem decomposition and procedural programming; input and output; aggregate data structures including arrays; programming exercises.",
+    "prereqs": []
+  },
+  {
+    "code": "CS 112",
+    "name": "Program Design I in the Context of Biological Problems",
+    "Title": "Introduction to programming in a biological context.",
+    "description": "Introduction to programming using Biology as the context for programming in a high-level language; control structures, variables, simple and aggregate data types; problem-solving techniques; biology topics include central dogma and genetics.",
+    "prereqs": []
+  },
+  {
+    "code": "CS 113",
+    "name": "Program Design I in the Context of Law and Public Policy",
+    "Title": "Introduction to programming in a law and public policy context.",
+    "description": "Introduction to programming using law and public policy as the context for programming; control structures, variables, simple and aggregate data types; problem-solving techniques; legal topics: security, privacy, encryption, and predictive policing.",
+    "prereqs": []
+  },
+  {
+    "code": "CS 141",
+    "name": "Program Design II",
+    "Title": "Object-oriented programming and basic data structures.",
+    "description": "Data abstraction and modular design; recursion; lists and stacks; dynamic memory allocation; file manipulation; programming exercises.",
+    "prereqs": [
+      {
+        "CS 111": "C",
+        "CS 112": "C",
+        "CS 113": "C",
+        "CS 107": "C",
+        "CS 109": "C"
+      },
+      "MATH 180"
+    ]
+  },
+  {
+    "code": "CS 151",
+    "name": "Mathematical Foundations of Computing",
+    "Title": "Discrete mathematics concepts fundamental to computing.",
+    "description": "Discrete mathematics concepts fundamental to computing: propositional logic, predicates and quantifiers; proofs; sets; recursive definitions and induction; functions, relations and graphs; combinatorics and discrete probability; applications.",
+    "prereqs": [
+      {
+        "CS 111": "C",
+        "CS 112": "C",
+        "CS 113": "C",
+        "CS 107": "C",
+        "CS 109": "C",
+        "MCS 160": "C"
+      },
+      "MATH 180"
+    ]
+  },
+  {
+    "code": "CS 194",
+    "name": "Special Topics in Computer Science",
+    "Title": "Multidisciplinary computer science topics at first-year level.",
+    "description": "Multidisciplinary computer science topics at first-year level that vary from term to term depending on current student and instructor interests.",
+    "prereqs": []
+  },
+  {
+    "code": "CS 211",
+    "name": "Programming Practicum",
+    "Title": "Programming practice with emphasis on abstraction.",
+    "description": "Software development tools and practices; debugging and testing; advanced language features; standard libraries; code management.",
+    "prereqs": [
+      {
+        "CS 141": "C",
+        "CS 107": "C"
+      }
+    ]
+  },
+  {
+    "code": "CS 251",
+    "name": "Data Structures",
+    "Title": "Fundamental data structures and algorithms.",
+    "description": "Design, usage and analysis of data structures: review of lists, stacks and queues; hash tables, priority queues, search trees, introduction to graphs; searching and sorting; runtime analysis; programming projects and lab exercises.",
+    "prereqs": [
+      {
+        "CS 141": "C",
+        "CS 107": "C"
+      },
+      {
+        "CS 151": "C"
+      },
+      "CS 211",
+      "ECE 266"
+    ]
+  },
+  {
+    "code": "CS 261",
+    "name": "Machine Organization",
+    "Title": "Data representation and computer arithmetic; machine language; addressing; memory hierarchy; subroutines; data structures; processor architecture.",
+    "description": "Data representation and computer arithmetic; machine language; addressing; memory hierarchy; subroutines; data structures; processor architecture: hardware components, pipelining.",
+    "prereqs": [
+      {
+        "CS 141": "C"
+      },
+      "CS 211"
+    ]
+  },
+  {
+    "code": "CS 277",
+    "name": "Technical and Professional Communication in Computer Science",
+    "Title": "Communication skills for computing students and professionals.",
+    "description": "Communication skills for computing students and professionals in various contexts: technical writing, portfolios, job interviews, demos, sales, with speech organization, visuals, and delivery. Attendance, participation, and presentations required.",
+    "prereqs": ["CS 141"]
+  },
+  {
+    "code": "CS 292",
+    "name": "Undergraduate Teaching Assistants Training",
+    "Title": "Required training for CS undergraduate TAs.",
+    "description": "Required for all first-time, CS undergraduate TAs; filling out timesheets; working with students; supporting professors; holding office hours; leading labs; grading assignments; accommodations and accessibility.",
+    "prereqs": []
+  },
+  {
+    "code": "CS 294",
+    "name": "Special Topics in Computer Science",
+    "Title": "Multidisciplinary computer science topics at sophomore level.",
+    "description": "Multidisciplinary computer science topics at sophomore level that vary from term to term depending on current student and instructor interests.",
+    "prereqs": []
+  },
+  {
+    "code": "CS 301",
+    "name": "Languages and Automata",
+    "Title": "Regular sets and finite automata, context-free languages and push-down automata.",
+    "description": "Regular sets and finite automata. Context-free languages and push-down automata. Parsing. Computability theory including Turing machines and decidability.",
+    "prereqs": [
+      {
+        "CS 151": "C"
+      },
+      "CS 251"
+    ]
+  },
+  {
+    "code": "CS 341",
+    "name": "Programming Language Design and Implementation",
+    "Title": "Programming language paradigms, design and implementation.",
+    "description": "Programming language paradigms, design and implementation: syntax and semantics; parsing; runtime systems; control; data types; subroutines and exceptions; data and procedural abstraction; functional programming.",
+    "prereqs": [
+      {
+        "CS 211": "C",
+        "CS 251": "C"
+      }
+    ]
+  },
+  {
+    "code": "CS 342",
+    "name": "Software Design",
+    "Title": "Software design principles and practices.",
+    "description": "Software design principles and practices: Object-oriented design; design patterns; software reuse; testing; event driven programming and concurrency; graphical user interface design and development; team development.",
+    "prereqs": [
+      {
+        "CS 251": "C",
+        "CS 211": "C"
+      }
+    ]
+  },
+  {
+    "code": "CS 351",
+    "name": "Advanced Data Structure Practicum",
+    "Title": "Design and implementation details of advanced data structures.",
+    "description": "Design and implementation details of advanced data structure and non-trivial algorithms with an emphasis on amortized analysis.",
+    "prereqs": [
+      {
+        "CS 251": "C",
+        "CS 211": "C"
+      }
+    ]
+  },
+  {
+    "code": "CS 361",
+    "name": "Systems Programming",
+    "Title": "Study of computer systems emphasizing impact on application level programming.",
+    "description": "Study of computer systems emphasizing impact on application level programming. Virtual memory and memory management; code optimization; system-level I/O; concurrency: processes, threads, synchronization; introduction to network programming.",
+    "prereqs": [
+      {
+        "CS 251": "C",
+        "CS 211": "C"
+      },
+      "CS 261"
+    ]
+  },
+  {
+    "code": "CS 362",
+    "name": "Computer Design",
+    "Title": "Computer hardware building blocks.",
+    "description": "Computer hardware building blocks: logic gates; combinational circuits; arithmetic circuits; flip flops and sequential circuits; registers and memory; CPU design; I/O design.",
+    "prereqs": [
+      {
+        "CS 211": "C"
+      },
+      "CS 261"
+    ]
+  },
+  {
+    "code": "CS 377",
+    "name": "Ethical Issues in Computing",
+    "Title": "Communication skills and ethical and societal issues in computing.",
+    "description": "Communication skills for computing professionals: presentation organization, visual aides, delivery techniques, argument support. Ethical and societal issues in computing: privacy, intellectual property and ownership, crime.",
+    "prereqs": ["CS 251"]
+  },
+  {
+    "code": "CS 378",
+    "name": "Framework-based Software Development for Hand-held Devices",
+    "Title": "Multi-platform app development using software frameworks.",
+    "description": "Multi-platform app development using software frameworks; the integration of framework-generated code with native code of mobile operating systems; numerous programming assignments in multiple programming languages.",
+    "prereqs": ["CS 342"]
+  },
+  {
+    "code": "CS 391",
+    "name": "Computer Science Practicum",
+    "Title": "Practicum experience in a professional environment.",
+    "description": "Provides students with the opportunity to apply the skills and knowledge gained in previous engineering courses within a professional, working environment.",
+    "prereqs": []
+  },
+  {
+    "code": "CS 394",
+    "name": "Special Topics in Computer Science",
+    "Title": "Multidisciplinary computer science topics at junior-senior level.",
+    "description": "Multidisciplinary computer science topics at junior-senior level that vary from term to term depending on current student and instructor interests.",
+    "prereqs": []
+  },
+  {
+    "code": "CS 398",
+    "name": "Undergraduate Design/Research",
+    "Title": "Design and/or research experience for undergraduate Computer Science majors.",
+    "description": "Design and/or research experience for undergraduate Computer Science majors under close supervision of a CS faculty member.",
+    "prereqs": []
+  },
+  {
+    "code": "CS 401",
+    "name": "Computer Algorithms I",
+    "Title": "Design and analysis of computer algorithms.",
+    "description": "Design and analysis of computer algorithms. Divide-and-conquer, dynamic programming, greedy method, backtracking. Algorithms for sorting, searching, graph computations, pattern matching, NP-complete problems.",
+    "prereqs": [
+      {
+        "MCS 360": "C",
+        "CS 251": "C"
+      }
+    ]
+  },
+  {
+    "code": "CS 402",
+    "name": "Algorithms in Practice",
+    "Title": "Design, implementation and presentation of algorithms and data structures.",
+    "description": "Design, implementation and presentation of algorithms and data structures emphasizing dynamic programming and both exact and heuristic approaches to NP-hard problems; problem solving sessions, programming projects and presentations.",
+    "prereqs": ["CS 401"]
+  },
+  {
+    "code": "CS 407",
+    "name": "Economics and Computation",
+    "Title": "Techniques for analysis of markets and strategic agents.",
+    "description": "Techniques for analysis of markets, making decisions with other strategic agents, and understanding how algorithms affect the incentives of market participants, including game theory, mechanism design, auction theory, and social choice theory.",
+    "prereqs": [
+      {
+        "CS 251": "C"
+      }
+    ]
+  },
+  {
+    "code": "CS 411",
+    "name": "Artificial Intelligence I",
+    "Title": "Introduction to concepts and methods in artificial intelligence.",
+    "description": "Definitions of intelligence and AI, autonomous agents, architectures of agents and types of environments, search techniques, adversarial search, search in complex environments, logic and probability, learning, generative AI.",
+    "prereqs": [
+      {
+        "CS 251": "C"
+      }
+    ]
+  },
+  {
+    "code": "CS 412",
+    "name": "Introduction to Machine Learning",
+    "Title": "Mechanisms and applications of systems that improve automatically based on past experience.",
+    "description": "Mechanism, implementation, and application of systems that improve automatically based on past experience, including classification, density estimation, clustering, and online learning tasks and solutions.",
+    "prereqs": [
+      {
+        "CS 251": "C"
+      },
+      "IE 342",
+      "STAT 381",
+      "ECE 341"
+    ]
+  },
+  {
+    "code": "CS 415",
+    "name": "Computer Vision I",
+    "Title": "Fundamental concepts and techniques in computer vision.",
+    "description": "Fundamental concepts and techniques in computer vision; image filtering, feature detection, description, matching, image segmentation, and object recognition; hands-on projects and assignments.",
+    "prereqs": ["CS 202", "MCS 360"]
+  },
+  {
+    "code": "CS 418",
+    "name": "Introduction to Data Science",
+    "Title": "In-depth overview of data science in engineering.",
+    "description": "Provides an in-depth overview of data science in engineering. Topics include modeling, storage, manipulation, integration, classification, analysis, visualization, information extraction, and big data in the engineering domain.",
+    "prereqs": [
+      {
+        "CS 251": "C"
+      },
+      "STAT 381",
+      "IE 342",
+      "ECE 341"
+    ]
+  },
+  {
+    "code": "CS 421",
+    "name": "Natural Language Processing",
+    "Title": "Design of natural language processing systems.",
+    "description": "Design of natural language processing systems; part-of speech tagging, statistical and symbolic parsers; semantic interpretation; discourse and dialogue processing; natural language generation; applications.",
+    "prereqs": ["CS 301", "MCS 441"]
+  },
+  {
+    "code": "CS 422",
+    "name": "User Interface Design and Programming",
+    "Title": "User interface design, implementation, and evaluation.",
+    "description": "User interface design, implementation, and evaluation: user-centered design methodologies, windowing systems, I/O devices and techniques, event-loop programming, user studies. Programming projects.",
+    "prereqs": ["CS 342"]
+  },
+  {
+    "code": "CS 423",
+    "name": "Natural User Interactions",
+    "Title": "Introduction to the field of natural user interactions.",
+    "description": "Introduces students to the field of natural user interactions, including topics such as design principles, hardware-to-software development pipeline (including various existing platforms, toolkits and APIs), as well as effective evaluation techniques.",
+    "prereqs": ["CS 342"]
+  },
+  {
+    "code": "CS 424",
+    "name": "Visualization and Visual Analytics",
+    "Title": "Visualization and visual analytics across multiple domains.",
+    "description": "Geospatial visualization, scientific visualization, medical visualization, information visualization, and social network visualization, interaction, data analysis, human factors, dynamic data, privacy, uncertainty, data transforms.",
+    "prereqs": [
+      {
+        "CS 251": "C"
+      }
+    ]
+  },
+  {
+    "code": "CS 425",
+    "name": "Computer Graphics I",
+    "Title": "Principles of interactive computer graphics.",
+    "description": "Principles of interactive computer graphics. Raster and vector display, techniques and hardware considerations. Introduction to two-dimensional and three dimensional rendering.",
+    "prereqs": [
+      {
+        "CS 251": "C"
+      }
+    ]
+  },
+  {
+    "code": "CS 426",
+    "name": "Video Game Design and Development",
+    "Title": "Theory and practice of video game design and programming.",
+    "description": "Theory and practice of video game design and programming. Students will form interdisciplinary teams, to design, build and demonstrate video games or related interactive simulation environments.",
+    "prereqs": [
+      {
+        "CS 251": "C",
+        "DES 450": "C"
+      }
+    ]
+  },
+  {
+    "code": "CS 427",
+    "name": "Creative Coding",
+    "Title": "Creative coding for expressive purposes.",
+    "description": "Creative Coding investigates how contemporary computational techniques can inspire novel forms of art making, providing students with the skills to make use of technology for expressive purposes.",
+    "prereqs": [
+      {
+        "CS 251": "C"
+      }
+    ]
+  },
+  {
+    "code": "CS 428",
+    "name": "Virtual, Augmented and Mixed Reality",
+    "Title": "Virtual reality, augmented reality, and mixed reality environments.",
+    "description": "Virtual reality, augmented reality, and mixed reality environments, display devices, input devices, tracking, navigation, interaction, collaboration, generating visuals and sounds, software tools, applications, evaluation, safety.",
+    "prereqs": ["CS 342"]
+  },
+  {
+    "code": "CS 440",
+    "name": "Software Engineering I",
+    "Title": "Software life-cycle and large-scale software design.",
+    "description": "Software life-cycle model, requirement specification techniques, large-scale software design techniques and tools, implementation issues, testing and debugging techniques, software maintenance.",
+    "prereqs": ["CS 342"]
+  },
+  {
+    "code": "CS 441",
+    "name": "Engineering Distributed Objects For Cloud Computing",
+    "Title": "Overview of engineering distributed objects for cloud environments.",
+    "description": "Provides a broad but solid overview of engineering distributed object for cloud computing. Students will learn the theory and principles of engineering distributed objects for cloud environments. Programming assignments required.",
+    "prereqs": [
+      {
+        "CS 341": "C",
+        "CS 342": "C"
+      },
+      {
+        "CS 361": "C"
+      }
+    ]
+  },
+  {
+    "code": "CS 442",
+    "name": "Software Engineering II",
+    "Title": "Advanced concepts in software development.",
+    "description": "Advanced concepts in software development: requirements engineering, cost estimation, risk analysis, extreme programming, regression test case selection, and design patterns. Software lab assignments required.",
+    "prereqs": ["CS 440"]
+  },
+  {
+    "code": "CS 450",
+    "name": "Introduction to Networking",
+    "Title": "Network protocols, algorithms, and software issues.",
+    "description": "Network protocols, algorithms, and software issues. Topics include the Open Systems Interconnect model, data link, network and transport layers, TCP/IP, ATM, mobile networks.",
+    "prereqs": ["CS 361"]
+  },
+  {
+    "code": "CS 453",
+    "name": "Introduction to Parallel and Distributed Processing",
+    "Title": "Foundations of parallel and distributed processing.",
+    "description": "Foundations of parallel and distributed processing; clusters and parallel systems; communication primitives; programming with MPI; scalability; distributed graph algorithms; distributed mutual exclusion, deadlock detection, peer-to-peer systems.",
+    "prereqs": [
+      {
+        "CS 251": "C"
+      }
+    ]
+  },
+  {
+    "code": "CS 454",
+    "name": "Principles of Concurrent Programming",
+    "Title": "Foundations and principles of concurrent programming.",
+    "description": "Focuses on the foundations and basic principles of concurrent programming, covering high-level notions of concurrent correctness and connecting those abstract concepts to real-world programming constructs and algorithms used in practice.",
+    "prereqs": ["CS 361"]
+  },
+  {
+    "code": "CS 455",
+    "name": "Introduction to High Performance Computing",
+    "Title": "Foundations of high-performance computing.",
+    "description": "Explore the foundations of high-performance computing (HPC), the architecture of supercomputers, and the challenges in developing massive heterogeneous systems to address complex real-world problems.",
+    "prereqs": ["CS 361"]
+  },
+  {
+    "code": "CS 461",
+    "name": "Operating Systems Design and Implementation",
+    "Title": "Kernel design and implementation and resource management.",
+    "description": "Kernel design and implementation; process management; effective management of machine resources: resource allocation and scheduling, mutual exclusion, deadlock avoidance, memory management policies, devices and file systems, and client-server systems.",
+    "prereqs": ["CS 361"]
+  },
+  {
+    "code": "CS 463",
+    "name": "Systems Performance and Concurrent Computing",
+    "Title": "Systems factors that affect program performance.",
+    "description": "Understanding the many systems factors that affect program performance, including program design for concurrent computing, profiling and program optimization.",
+    "prereqs": ["CS 361"]
+  },
+  {
+    "code": "CS 466",
+    "name": "Computer Architecture",
+    "Title": "Design principles of computer architecture.",
+    "description": "Design principles of computer architecture. Topics include: instruction set architecture, pipelining, instruction-level parallelism, caches, main memory, and thread-level parallelism.",
+    "prereqs": ["ECE 366", "CS 261"]
+  },
+  {
+    "code": "CS 468",
+    "name": "Network Security",
+    "Title": "Principles and practice of network security.",
+    "description": "Introduces basic concepts of security and privacy, and covers the principles and practice of network security. Given the ubiquitousness of network communications, this course explores a range of systems and applications, and the threats they face.",
+    "prereqs": ["CS 361"]
+  },
+  {
+    "code": "CS 472",
+    "name": "Provably Correct Programming",
+    "Title": "Introduction to interactive theorem proving and program logics.",
+    "description": "Introduction to interactive theorem proving and program logics, with the goal of specifying and proving the correctness of programs. Learn to develop machine-assisted formal mathematical proofs and prove that programs satisfy their specifications.",
+    "prereqs": ["CS 341"]
+  },
+  {
+    "code": "CS 473",
+    "name": "Compiler Design",
+    "Title": "Language translation and compiler construction.",
+    "description": "Language translation: lexical analysis, parsing schemes, symbol table management, syntax and semantic error detection, and code generation. Development of fully-functional compiler.",
+    "prereqs": [
+      {
+        "CS 301": "C",
+        "MCS 441": "C"
+      },
+      {
+        "CS 251": "C",
+        "MCS 360": "C"
+      },
+      {
+        "CS 261": "C"
+      }
+    ]
+  },
+  {
+    "code": "CS 474",
+    "name": "Object-Oriented Languages and Environments",
+    "Title": "Data abstraction and object-oriented languages.",
+    "description": "Data abstraction, classes and objects, messages and methods, polymorphism and dynamic binding, inheritance. Object-oriented design. Pure and hybrid object-oriented languages.",
+    "prereqs": ["CS 342"]
+  },
+  {
+    "code": "CS 475",
+    "name": "Object-Oriented Programming",
+    "Title": "Object-oriented programming with C++ and Java.",
+    "description": "OO paradigm: classes, messages, methods, variables, inheritance, polymorphism; the C++ and Java languages; programming labs required.",
+    "prereqs": ["CS 202"]
+  },
+  {
+    "code": "CS 476",
+    "name": "Programming Language Design",
+    "Title": "Definition, design, and implementation of programming languages.",
+    "description": "Definition, design, and implementation of programming languages. Syntactic and semantic description; variable bindings, control and data structures, parsing, code generation, optimization; exception handling; data abstraction.",
+    "prereqs": ["MCS 360", "CS 341"]
+  },
+  {
+    "code": "CS 477",
+    "name": "Public Policy, Legal, and Ethical Issues in Computing, Privacy, and Security",
+    "Title": "Contemporary topics in computing policy, law, and ethics.",
+    "description": "Contemporary topics involving legal, public policy, and/or ethical issues in computing, especially privacy, security, and surveillance.",
+    "prereqs": []
+  },
+  {
+    "code": "CS 478",
+    "name": "Software Development for Mobile Platforms",
+    "Title": "Design and implementation of mobile applications.",
+    "description": "Design and implementation of mobile applications; operating systems, object-oriented languages and programming environments for mobile platforms; integration with hardware components; and location-aware applications. Programming assignments required.",
+    "prereqs": ["CS 342"]
+  },
+  {
+    "code": "CS 479",
+    "name": "Wearables and Nearables Technology Laboratory",
+    "Title": "Design and development of wearable and nearable devices.",
+    "description": "Practical experience in design and development of wearable and nearable devices. Acquisition and processing of sensors data. Design and development of user-friendly user interface.",
+    "prereqs": ["BME 240", "CS 251"]
+  },
+  {
+    "code": "CS 480",
+    "name": "Database Systems",
+    "Title": "Database design and implementation.",
+    "description": "Database design, logical design, physical design. Relational databases. Recovery, concurrency control. Normalization.",
+    "prereqs": [
+      {
+        "CS 251": "C"
+      }
+    ]
+  },
+  {
+    "code": "CS 483",
+    "name": "Big Data Mining",
+    "Title": "Data mining for very large datasets.",
+    "description": "Data mining for very large datasets from a foundational and practical standpoint including similarity search, data-stream processing, advanced technology for search engines, recommendation systems, and graph analytics.",
+    "prereqs": [
+      {
+        "CS 251": "C"
+      },
+      "ECE 341",
+      "IE 342",
+      "STAT 381"
+    ]
+  },
+  {
+    "code": "CS 484",
+    "name": "Secure Web Application Development",
+    "Title": "Security through modern web application development.",
+    "description": "Web applications integrate concepts from software engineering, systems programming, and computer security. Teaches security through web development, enabling students to design, deploy, scale, attack, and defend modern web applications.",
+    "prereqs": ["CS 341"]
+  },
+  {
+    "code": "CS 485",
+    "name": "Networked Operating Systems Programming",
+    "Title": "Design and programming of multi-process and distributed systems.",
+    "description": "Concepts, design, and programming of multi-process and distributed systems; inter-process communications; fault tolerance; distributed programming semantics. Programming assignments and project required.",
+    "prereqs": ["CS 385"]
+  },
+  {
+    "code": "CS 487",
+    "name": "Building Secure Computer Systems",
+    "Title": "Building and programming secure systems.",
+    "description": "Building and programming secure systems; protecting systems from threats and reduction of vulnerabilities; Includes application, host and network security.",
+    "prereqs": ["CS 385"]
+  },
+  {
+    "code": "CS 488",
+    "name": "Introduction to Cryptography",
+    "Title": "Foundations and practice of cryptography.",
+    "description": "Foundational concepts: encryption schemes, hash functions, message authentication codes, digital signatures. Practical systems: stream and block ciphers, SHA. Advanced topics: secure computation, zero-knowledge proofs, blockchain.",
+    "prereqs": [
+      {
+        "CS 251": "C"
+      },
+      "IE 342",
+      "STAT 381",
+      "STAT 401"
+    ]
+  },
+  {
+    "code": "CS 489",
+    "name": "Human Augmentics",
+    "Title": "Technologies for augmentation of human capabilities.",
+    "description": "Study of technologies for augmentation of human capabilities; human limitations; implants and wearable technologies; implants; brain-computer interfaces; exoskeletons; sensors and networks. Includes project work.",
+    "prereqs": [
+      {
+        "CS 251": "C"
+      }
+    ]
+  },
+  {
+    "code": "CS 491",
+    "name": "Seminar",
+    "Title": "Seminar on topics of mutual interest.",
+    "description": "Topics of mutual interest to a faculty member and a group of students. Offered as announced by department bulletin or the Timetable.",
+    "prereqs": []
+  },
+  {
+    "code": "CS 494",
+    "name": "Special Topics in Computer Science",
+    "Title": "Special topics for seniors and graduate students.",
+    "description": "Multidisciplinary computer science topics for undergrad seniors and graduate student that vary from term to term depending on current student and instructor interests.",
+    "prereqs": []
+  },
+  {
+    "code": "CS 499",
+    "name": "Professional Development Seminar",
+    "Title": "Professional development and program assessment for graduating seniors.",
+    "description": "Graduating seniors will be provided with information regarding future career paths and will provide information regarding the program to be used for assessment purposes. Students take the CS Major Field Exam as part of this course.",
+    "prereqs": []
+  }
+]

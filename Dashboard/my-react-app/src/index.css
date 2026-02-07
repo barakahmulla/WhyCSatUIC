@@ -14,10 +14,44 @@ body {
 
 .navbar {
   display: flex;
+  align-items: center;
+  background-color: var(--uic-blue);
+  width: 100%;
+  padding: 0.25rem;
+  gap: 20px;
+}
+/* display: flex;
   justify-content: center;
   background-color: var(--uic-blue);
   padding: 1rem;
-  gap: 20px;
+  gap: 20px; */
+/* left, center, right take equal flex-basis so center can actually be centered */
+.navbar-left,
+.navbar-center,
+.navbar-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+/* logo stays at far left of its section */
+.navbar-left {
+  justify-content: flex-start;
+}
+
+.navbar-logo {
+  height: 60px;
+  margin-left: 1rem;   /* optional padding from edge */
+}
+
+/* buttons centered within middle third of navbar */
+.navbar-center {
+  justify-content: center;
+}
+
+/* right section just acts as spacer */
+.navbar-right {
+  justify-content: flex-end;
 }
 
 .tab-button {
