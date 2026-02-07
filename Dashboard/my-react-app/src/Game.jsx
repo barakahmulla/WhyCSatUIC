@@ -55,7 +55,7 @@ const Game = () => (
         </a>
         
         <a href="#" className="game-button secondary">
-          Unity for Linux
+          Unity for Windows
         </a>
       </div>
     </div>
