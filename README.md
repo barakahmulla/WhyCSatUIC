@@ -45,3 +45,68 @@ Responsive Design: A "cute and clean" aesthetic that adapts for both desktop and
    https://github.com/NourAlsramah/WhyCSatUICUnity
 
 This project was designed and developed by Sheena, Atulya, Barakah, Deeya, and Nour—all Juniors in the UIC CS program committed to making technology more inclusive and approachable.
+
+# macOS Download & Run Instructions
+
+Because macOS has strict security settings for apps downloaded from the internet, you may need to take a few extra steps to run this application.
+
+---
+
+## Step 1: Download the App
+- Download the `.zip` or app folder from **Box**
+- Once downloaded, unzip the file (double-click it)
+
+You should now see an `.app` file.
+
+---
+
+## Step 2: Move the App (Recommended)
+For best results, drag the `.app` file into your **Applications** folder.
+
+---
+
+## Step 3: Allow the App to Run (macOS Security)
+macOS may block the app because it is not from a verified developer.
+
+### Option A (Recommended)
+1. **Right-click (or Control-click)** the app
+2. Select **Open**
+3. A warning will appear — click **Open** again
+
+The app should now launch.
+
+---
+
+### Option B (System Settings)
+If the app still won’t open:
+
+1. Open **System Settings**
+2. Go to **Privacy & Security**
+3. Scroll down to **Security**
+4. You will see a message saying the app was blocked
+5. Click **Open Anyway**
+6. Confirm when prompted
+
+---
+
+## Step 4: Future Launches
+After opening the app once, macOS will remember your choice and the app will open normally from then on.
+
+---
+
+## Notes
+- This warning is **normal** for student and Unity projects
+- No personal data is accessed or collected
+- You do **not** need an Apple Developer account to run the app
+
+---
+
+## Troubleshooting
+- If the app does not launch, make sure it was fully extracted from the ZIP
+- Do not rename the `.app` file
+- Try restarting your computer and opening again
+
+---
+
+If you run into issues, please contact the project team for help.
+
