@@ -44,5 +44,4 @@ Responsive Design: A "cute and clean" aesthetic that adapts for both desktop and
 5. To View Our Github Repo for our VideoGame use the link:
    https://github.com/NourAlsramah/WhyCSatUICUnity
 
-💙 The Team
 This project was designed and developed by Sheena, Atulya, Barakah, Deeya, and Nour—all Juniors in the UIC CS program committed to making technology more inclusive and approachable.
