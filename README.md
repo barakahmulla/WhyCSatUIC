@@ -80,5 +80,7 @@ If the app still won’t open:
 4. You will see a message saying the app was blocked
 5. Click **Open Anyway**
 6. Confirm when prompted
-
 ---
+
+For Windows
+Click unity for windows, then unzip the downloaded folder and open the .exe file
