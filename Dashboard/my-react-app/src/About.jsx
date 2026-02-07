@@ -27,7 +27,7 @@ const About = () => (
         <p><strong>My UIC Story:</strong> I chose UIC because of its diversity and the resources it offers. So far, my experience here has been great, and I feel like I’ve gone through a really positive transformation since I first started. I used to be very introverted, and while I still am in some ways, I’ve learned how to find like minded people who are passionate about what they do. </p>
         <p><strong>Why Our Game? </strong> I was motivated to create this game because it felt like a fun and interactive way to showcase what the CS experience at UIC is like. I know choosing the right college can be a tough decision, but at UIC there are many different communities and opportunities where you can find your place. </p>
         <p><strong>Passion:</strong> Interested in AI/ML and product management </p>
-        <p><strong>Fun Fact:</strong>I have pet budgies </p>
+        <p><strong>Fun Fact:</strong> I have pet budgies </p>
       </div>
     </div>
 
