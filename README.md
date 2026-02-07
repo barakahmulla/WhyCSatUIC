@@ -54,18 +54,12 @@ Because macOS has strict security settings for apps downloaded from the internet
 
 ## Step 1: Download the App
 - Download the `.zip` or app folder from **Box**
-- Once downloaded, unzip the file (double-click it)
 
 You should now see an `.app` file.
 
 ---
 
-## Step 2: Move the App (Recommended)
-For best results, drag the `.app` file into your **Applications** folder.
-
----
-
-## Step 3: Allow the App to Run (macOS Security)
+## Step 2: Allow the App to Run (macOS Security)
 macOS may block the app because it is not from a verified developer.
 
 ### Option A (Recommended)
@@ -88,25 +82,3 @@ If the app still won’t open:
 6. Confirm when prompted
 
 ---
-
-## Step 4: Future Launches
-After opening the app once, macOS will remember your choice and the app will open normally from then on.
-
----
-
-## Notes
-- This warning is **normal** for student and Unity projects
-- No personal data is accessed or collected
-- You do **not** need an Apple Developer account to run the app
-
----
-
-## Troubleshooting
-- If the app does not launch, make sure it was fully extracted from the ZIP
-- Do not rename the `.app` file
-- Try restarting your computer and opening again
-
----
-
-If you run into issues, please contact the project team for help.
-
