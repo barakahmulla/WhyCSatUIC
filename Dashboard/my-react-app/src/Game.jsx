@@ -1,3 +1,6 @@
+import YoutubeEmbed from "./assets/youtube.jsx";
+
+
 const Game = () => (
   <section style={{ textAlign: 'center' }}>
     <h1>Play Our CS @ UIC Game</h1>
@@ -55,6 +58,12 @@ const Game = () => (
           Unity for Linux
         </a>
       </div>
+    </div>
+
+    <div>
+      <h1>Game Play Video</h1>
+      {/* Use the part after v= in the YouTube URL */}
+      <YoutubeEmbed embedId="dQw4w9WgXcQ" />
     </div>
 
     <p style={{ 
