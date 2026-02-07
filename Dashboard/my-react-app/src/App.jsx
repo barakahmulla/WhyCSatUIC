@@ -4,9 +4,7 @@ import Tips from './Tips';
 import Game from './Game';
 import Classes from './Classes';
 import About from './About';
-import MindMapView from './CourseMindMap';
 import './index.css';
-import uicLogo from './assets/UIC_Logo.png';
 
 function App() {
   const [activeTab, setActiveTab] = useState('Home');
@@ -18,34 +16,6 @@ function App() {
       case 'Classes': return <Classes />;
       case 'Game': return <Game />;
       case 'About': return <About />;
-      case 'Course Map':
-        return (
-          <div
-            style={{
-              position: 'fixed',
-              top: '240px',             // navbar height
-              left: 0,
-              right: 0,
-              bottom: 0,
-              zIndex: 1,
-              background: '#e2e8f0',   // outer bg
-              padding: '16px'          // small margin around the map
-            }}
-          >
-            <div
-              style={{
-                height: '100%',
-                width: '100%',
-                borderRadius: '16px',
-                overflow: 'hidden',
-                boxShadow: '0 10px 30px rgba(15,23,42,0.18)',
-                background: '#ffffff'
-              }}
-            >
-              <MindMapView />
-            </div>
-          </div>
-        );
       default: return <Home />;
     }
   };
@@ -75,12 +45,10 @@ function App() {
              tab === 'Tips' ? 'Freshman Tips' :
              tab === 'Classes' ? 'Class Guide' :
              tab === 'Game' ? 'Interactive Game' :
-             tab === 'About' ? 'About Us' :
-             'Course Map'}
+             'About Us'}
           </button>
         ))}
       </nav>
-
 
       {/* Main Content */}
       <div className="container">
