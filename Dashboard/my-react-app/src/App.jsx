@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Home from './Home';
 import Tips from './Tips';
 import Game from './Game';
+import Classes from './Classes';
 import About from './About';
 import MindMapView from './CourseMindMap';
 import './index.css';
@@ -14,6 +15,7 @@ function App() {
     switch (activeTab) {
       case 'Home': return <Home />;
       case 'Tips': return <Tips />;
+      case 'Classes': return <Classes />;
       case 'Game': return <Game />;
       case 'About': return <About />;
       case 'Course Map':
@@ -50,29 +52,49 @@ function App() {
 
   return (
     <div>
+      {/* Header with Logo */}
+      <header className="site-header">
+        <div className="logo-container">
+          <div className="uic-logo">UIC</div>
+          <div>
+            <h1 className="site-title">Why CS at UIC?</h1>
+            <p className="site-subtitle">A student-made guide to CS at University of Illinois Chicago</p>
+          </div>
+        </div>
+      </header>
+
+      {/* Navigation */}
       <nav className="navbar">
-        <div className="navbar-left">
-          <img src={uicLogo} alt="UIC logo" className="navbar-logo" />
-        </div>
-
-        <div className="navbar-center">
-          {['Home', 'Tips', 'Game', 'About', 'Course Map'].map((tab) => (
-            <button 
-              key={tab}
-              className={`tab-button ${activeTab === tab ? 'active' : ''}`}
-              onClick={() => setActiveTab(tab)}
-            >
-              {tab === 'Home' ? 'Why UIC CS?' : tab}
-            </button>
-          ))}
-        </div>
-
-        <div className="navbar-right">{/* empty spacer */}</div>
+        {['Home', 'Tips', 'Game', 'About', 'Course Map'].map((tab) => (
+          <button 
+            key={tab}
+            className={`tab-button ${activeTab === tab ? 'active' : ''}`}
+            onClick={() => setActiveTab(tab)}
+          >
+            {tab === 'Home' ? 'Why UIC CS?' : 
+             tab === 'Tips' ? 'Freshman Tips' :
+             tab === 'Classes' ? 'Class Guide' :
+             tab === 'Game' ? 'Interactive Game' :
+             'About Us'}
+          </button>
+        ))}
       </nav>
 
+
+      {/* Main Content */}
       <div className="container">
         {renderContent()}
       </div>
+
+      {/* Footer */}
+      <footer className="footer">
+        <p style={{ margin: 0, fontSize: '1.1rem', fontWeight: '600' }}>
+          Made with love by UIC CS Students
+        </p>
+        <p style={{ margin: '0.5rem 0 0 0', fontSize: '0.9rem', opacity: 0.9 }}>
+          Empowering the next generation of CS students at UIC
+        </p>
+      </footer>
     </div>
   );
 }
