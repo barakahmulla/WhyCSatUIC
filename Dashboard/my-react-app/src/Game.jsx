@@ -76,11 +76,11 @@ const Game = () => (
       </div>
     </div>
 
-    <div>
+    {/* <div>
       <h1>Game Play Video</h1>
       {/* Use the part after v= in the YouTube URL */}
       {/* <YoutubeEmbed embedId="" /> */}
-    </div>
+    </div> */}
 
     <p style={{ 
       marginTop: '2rem', 
