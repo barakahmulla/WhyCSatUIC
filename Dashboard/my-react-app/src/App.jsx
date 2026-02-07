@@ -21,19 +21,14 @@ function App() {
   return (
     <div>
       <nav className="navbar">
-        {['Home', 'Tips', 'Game', 'About'].map((tab) => (
-          <button 
-            key={tab}
-            className={`tab-button ${activeTab === tab ? 'active' : ''}`}
-            onClick={() => setActiveTab(tab)}
-          >
-            {tab === 'Home' ? 'Why UIC CS?' : tab}
-          </button>
-        ))}
+        <button className={`tab-button ${activeTab === 'Home' ? 'active' : ''}`} onClick={() => setActiveTab('Home')}>Why UIC CS?</button>
+        <button className={`tab-button ${activeTab === 'Tips' ? 'active' : ''}`} onClick={() => setActiveTab('Tips')}>Freshmen Tips</button>
+        <button className={`tab-button ${activeTab === 'Game' ? 'active' : ''}`} onClick={() => setActiveTab('Game')}>The Game</button>
+        <button className={`tab-button ${activeTab === 'About' ? 'active' : ''}`} onClick={() => setActiveTab('About')}>About Us</button>
       </nav>
-      <div className="container">
+      <main className="container">
         {renderContent()}
-      </div>
+      </main>
     </div>
   );
 }
