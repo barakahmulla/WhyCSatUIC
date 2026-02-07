@@ -50,11 +50,18 @@ const Game = () => (
     <div style={{ marginTop: '2rem' }}>
       <h3 style={{ color: '#001E62' }}>Download Unity Game:</h3>
       <div style={{ display: 'flex', gap: '15px', justifyContent: 'center', flexWrap: 'wrap' }}>
-        <a href="#" className="game-button">
+        <a
+          href="/unity/MyGame-mac.zip"   // file in public/unity/
+          className="game-button"
+          download
+        >
           Unity for Mac
         </a>
         
-        <a href="#" className="game-button secondary">
+        <a href="/Unity/WindowsExecutable-20260207T222229Z-1-001.zip" 
+        className="game-button secondary"
+          download
+          >
           Unity for Windows
         </a>
       </div>
@@ -63,7 +70,7 @@ const Game = () => (
     <div>
       <h1>Game Play Video</h1>
       {/* Use the part after v= in the YouTube URL */}
-      <YoutubeEmbed embedId="dQw4w9WgXcQ" />
+      <YoutubeEmbed embedId="" />
     </div>
 
     <p style={{ 
