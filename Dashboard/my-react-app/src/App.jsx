@@ -87,9 +87,6 @@ function App() {
 
       {/* Footer */}
       <footer className="footer">
-        <p style={{ margin: 0, fontSize: '1.1rem', fontWeight: '600' }}>
-          Made with love by UIC CS Students
-        </p>
         <p style={{ margin: '0.5rem 0 0 0', fontSize: '0.9rem', opacity: 0.9 }}>
           Empowering the next generation of CS students at UIC
         </p>

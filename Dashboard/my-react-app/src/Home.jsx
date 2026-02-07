@@ -2,13 +2,16 @@ const Home = () => (
   <section>
     <h1>Why Consider CS at UIC?</h1>
     
-    {/* Header Image - Replace src with actual photo */}
-    <img 
-      src="https://mscs.uic.edu/wp-content/uploads/sites/247/2024/01/mscs-header-cropped.jpg" 
-      alt="UIC Campus" 
-      className="header-image"
-    />
-    
+    {}
+    <div style={{ 
+      width: '80px', 
+      height: '6px', 
+      backgroundColor: '#D50032', 
+      borderRadius: '10px',
+      marginTop: '0.5rem',
+      marginBottom: '2.5rem'
+    }}></div>
+
     <p style={{ fontSize: '1.1rem', marginBottom: '2rem', lineHeight: '1.6' }}>
       Choosing a good CS program is a worry for many but UIC hits that sweet spot between opportunity, community, and growth.
     </p>
@@ -31,7 +34,7 @@ const Home = () => (
       
       <div className="card">
         <h3>Diversity & Inclusion</h3>
-        <p>UIC is known for its diversity and inclusivity. Programs like Chicago Tech Circle actively support and empower women and underrepresented students in tech.</p>
+        <p>UIC is known for its diversity and inclusivity. Programs like Chicago Tech Circle and Break Throuh Tech actively support and empower women and underrepresented students in tech.</p>
       </div>
       
       <div className="card">
@@ -41,7 +44,7 @@ const Home = () => (
       
       <div className="card">
         <h3>Early Career Opportunities</h3>
-        <p>The location provides unparalleled access to internships, co-ops, and entry-level positions at tech companies throughout Chicago.</p>
+        <p>The location provides unparalleled access to internships, co-ops, and entry-level positions at tech companies throughout the Chicago-Land area especially with new Quantam scope.</p>
       </div>
     </div>
     

@@ -3,7 +3,7 @@ import YoutubeEmbed from "./assets/youtube.jsx";
 
 const Game = () => (
   <section style={{ textAlign: 'center' }}>
-    <h1>Play Our CS @ UIC Game</h1>
+    <h1>Play Our Find Your Flame Game</h1>
     <h2>The UIC CS Experience: Interactive Game</h2>
     
     <p style={{ fontSize: '1.1rem', lineHeight: '1.6', maxWidth: '700px', margin: '0 auto 2rem' }}>
