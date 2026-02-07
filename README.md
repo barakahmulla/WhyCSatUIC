@@ -2,10 +2,11 @@
 SparkHacks 2026
 1. Installation
 This project was built using React and Vite. Follow these steps to get your local development environment running:
-# Install dependencies
+
+Install dependencies
 npm install
 
-# If you are using React Flow for the Course Map, ensure it is installed:
+If you are using React Flow for the Course Map, ensure it is installed:
 npm install reactflow
 
 2. Run Development Server
