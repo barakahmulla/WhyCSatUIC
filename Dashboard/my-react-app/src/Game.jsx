@@ -79,7 +79,7 @@ const Game = () => (
     <div>
       <h1>Game Play Video</h1>
       {/* Use the part after v= in the YouTube URL */}
-      <YoutubeEmbed embedId="" />
+      {/* <YoutubeEmbed embedId="" /> */}
     </div>
 
     <p style={{ 
