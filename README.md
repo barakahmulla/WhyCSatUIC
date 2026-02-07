@@ -40,7 +40,7 @@ Interactive Visuals: A dynamic mind map that highlights prerequisite paths when 
 
 Responsive Design: A "cute and clean" aesthetic that adapts for both desktop and mobile users using CSS Flexbox and Grid.
 
-5. To View Our Github Repo for our VideoGame use the link below:
+5. To View Our Github Repo for our VideoGame use the link:
    https://github.com/NourAlsramah/WhyCSatUICUnity
 
 💙 The Team
