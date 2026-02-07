@@ -1,3 +1,4 @@
+
 /* index.css */
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap');
 
@@ -83,13 +84,6 @@ body {
 /* Navigation */
 .navbar {
   display: flex;
-  align-items: center;
-  background-color: var(--uic-blue);
-  width: 100%;
-  padding: 0.25rem;
-  gap: 20px;
-}
-/* display: flex;
   justify-content: center;
   background-color: var(--uic-blue);
   background-image: 
@@ -643,5 +637,3 @@ strong {
   border-color: var(--uic-red) !important; 
   z-index: 10;
 }
-
-

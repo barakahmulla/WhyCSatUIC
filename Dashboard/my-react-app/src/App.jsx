@@ -23,7 +23,7 @@ function App() {
           <div
             style={{
               position: 'fixed',
-              top: '60px',             // navbar height
+              top: '240px',             // navbar height
               left: 0,
               right: 0,
               bottom: 0,
@@ -75,7 +75,8 @@ function App() {
              tab === 'Tips' ? 'Freshman Tips' :
              tab === 'Classes' ? 'Class Guide' :
              tab === 'Game' ? 'Interactive Game' :
-             'About Us'}
+             tab === 'About' ? 'About Us' :
+             'Course Map'}
           </button>
         ))}
       </nav>
