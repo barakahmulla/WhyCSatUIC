@@ -1,8 +1,101 @@
-#root {
+body {
+  /* margin: 0; */
+  background: linear-gradient(to bottom, #D50032, #001E62);
+  /* min-height: 100vh; */
+  background-attachment: scroll;
+  
+
+}
+
+.top-bar {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  /* background: rgba(0, 0, 0, 0.4); */
+  background: linear-gradient(to right, #D50032, #001E62);
+
+  
+  /* padding: 0 0;  was 0.4rem 0 – smaller height */
+}
+
+.top-bar-title {
+  font-size: 5rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #131313;
+}
+
+.top-bar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 1rem;              /* space from left/right edges */
+}
+
+/* Smaller logo */
+.UIC-logo {
+  height: 100px;         /* was 28px or similar */
+  width: auto;
+}
+
+/* Full-width background bar for tabs */
+.tabs-bar {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background: rgba(0, 0, 0, 0.35);  /* translucent dark bar */
+  padding: 0.4rem 0;
+}
+
+/* Center tab buttons inside a max-width container */
+.tabs-inner {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+/* Tab buttons */
+.tab-btn {
+  border-radius: 999px;
+  border: 1px solid transparent;
+  padding: 0.45rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s, transform 0.1s;
+}
+
+.tab-btn:hover {
+  background-color: #333;
+  border-color: #646cff;
+}
+
+.tab-btn.active {
+  background-color: #ffffff;
+  color: #111;
+  border-color: #ffffff;
+}
+
+
+#root {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;     /* center horizontally only */
+  padding: 0;         /* remove extra top padding */
   text-align: center;
+
 }
 
 .logo {
