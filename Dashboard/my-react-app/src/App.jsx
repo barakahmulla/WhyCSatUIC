@@ -35,7 +35,7 @@ function App() {
 
       {/* Navigation */}
       <nav className="navbar">
-        {['Home', 'Tips', 'Game', 'About', 'Course Map'].map((tab) => (
+        {['Home', 'Tips', 'Classes','Game', 'About', 'Course Map'].map((tab) => (
           <button 
             key={tab}
             className={`tab-button ${activeTab === tab ? 'active' : ''}`}
