@@ -2,10 +2,11 @@
 SparkHacks 2026
 1. Installation
 This project was built using React and Vite. Follow these steps to get your local development environment running:
-# Install dependencies
+
+Install dependencies
 npm install
 
-# If you are using React Flow for the Course Map, ensure it is installed:
+If you are using React Flow for the Course Map, ensure it is installed:
 npm install reactflow
 
 2. Run Development Server
@@ -43,5 +44,4 @@ Responsive Design: A "cute and clean" aesthetic that adapts for both desktop and
 5. To View Our Github Repo for our VideoGame use the link:
    https://github.com/NourAlsramah/WhyCSatUICUnity
 
-💙 The Team
 This project was designed and developed by Sheena, Atulya, Barakah, Deeya, and Nour—all Juniors in the UIC CS program committed to making technology more inclusive and approachable.
