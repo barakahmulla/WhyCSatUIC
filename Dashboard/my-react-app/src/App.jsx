@@ -64,7 +64,7 @@ function App() {
 
       {/* Navigation */}
       <nav className="navbar">
-        {['Home', 'Tips', 'Classes','Game', 'About', 'Course Map'].map((tab) => (
+        {['Home', 'Tips', 'Classes','Game', 'Course Map', 'About'].map((tab) => (
           <button 
             key={tab}
             className={`tab-button ${activeTab === tab ? 'active' : ''} ${tab === 'Game' ? 'jump-animation' : ''}`}
@@ -74,8 +74,8 @@ function App() {
              tab === 'Tips' ? 'Freshman Tips' :
              tab === 'Classes' ? 'Class Guide' :
              tab === 'Game' ? 'Interactive Game' :
-             tab === 'Course Map' ? 'Course Map' :
-             'About Us'}
+             tab === 'About' ? 'About Us' :
+             'Course Map'}
           </button>
         ))}
       </nav>
